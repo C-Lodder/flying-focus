@@ -1,10 +1,10 @@
 {
   "name": "flying-focus-a11y",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "https://github.com/C-Lodder/flying-focus",
   "main": "src/js/flying-focus.js",
   "repository": "C-Lodder/flying-focus",
-  "author": "Lea Verou",
+  "author": "Charlie Lodder",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/C-Lodder/flying-focus/issues"
