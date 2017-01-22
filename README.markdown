@@ -13,9 +13,6 @@ Flying Focus is a UI concept. It adds a transition to the focus outline when you
 
 Includes all necessary CSS and has no external dependencies. Build with `rake standalone`.
 
-## [Safari extension](http://n12v.com/focus-transition/FlyingFocus.safariextz)
-
-Build with `rake safari`.
 
 ## [Chrome extension](https://chrome.google.com/webstore/detail/flying-focus/koojelgeljpacclbmiflpcohjkbklplk)
 
