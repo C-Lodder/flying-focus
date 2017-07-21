@@ -2,14 +2,14 @@
 	'use strict';
 
 	document.addEventListener('DOMContentLoaded', function() {
-		var DURATION = 150,
-		    ringElem = null,
-		    movingId = 0,
+		var DURATION    = 150,
+		    ringElem    = null,
+		    movingId    = 0,
 		    prevFocused = null,
 		    keyDownTime = 0,
-		    win = window,
-		    doc = document,
-		    body = doc.body;
+		    win         = window,
+		    doc         = document,
+		    body        = doc.body;
 
 		doc.addEventListener('keydown', function(event) {
 			var code = event.which;
