@@ -59,7 +59,12 @@
 		}, true);
 
 		function initialize() {
-			// use uniq element name to decrease the chances of a conflict with website styles
+			// Check if the element already exists to prevent duplicates
+			if (document.getElementById('flying-focus')) {
+				return;
+			}
+
+			// Use uniq element name to decrease the chances of a conflict with website styles
 			ringElem = doc.createElement('flying-focus');
 			ringElem.id = 'flying-focus';
 			ringElem.style.transitionDuration = ringElem.style.WebkitTransitionDuration = DURATION / 1000 + 's';
